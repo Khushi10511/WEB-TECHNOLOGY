@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial;
+    background-color: rgb(211, 157, 118);
+    color: rgb(85, 37, 37);
+
+    text-align: center;
+}
+
+.para {
+    color: rgb(90, 90, 129);
+    /* line-height:40px;
+    word-spacing: 30px; */
+
+
+}
+
+.link>a {
+    text-decoration: overline;
+    font-size: 20px;
+}
+
+.box {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image
+{
+width:500px;
+height: 500px;
+opacity: 100;
+}
+.btn {
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    color: white;
+}

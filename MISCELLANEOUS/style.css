@@ -1,0 +1,23 @@
+.window{
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+
+.buttons{
+    width: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1, .btn2{
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 700;
+}

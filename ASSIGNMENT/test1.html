@@ -1,0 +1,35 @@
+<form action="#" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required><br>
+
+    <label for="rollno">Roll No:</label>
+    <input type="text" name="rollno" id="rollno" required><br>
+
+    <label for="branch">Branch:</label>
+    <select name="branch" id="branch" required>
+        <option value="" selected disabled>Select your branch</option>
+        <option value="CS">Computer Science</option>
+        <option value="IT">Information Technology</option>
+    </select><br>
+
+    <label>Subject:</label><br>
+    <input type="radio" id="wt-theo" name="subject" value="WT-THEO" required>
+    <label for="wt-theo">Web Technology Theory</label><br>
+    <input type="radio" id="wt-lab" name="subject" value="WT-LAB" required>
+    <label for="wt-lab">Web Technology Lab</label><br>
+
+    <label>Skill sets:</label><br>
+    <input type="checkbox" id="c" name="skills[]" value="C">
+    <label for="c">C</label><br>
+    <input type="checkbox" id="cpp" name="skills[]" value="C++">
+    <label for="cpp">C++</label><br>
+    <input type="checkbox" id="java" name="skills[]" value="Java">
+    <label for="java">Java</label><br>
+    <input type="checkbox" id="html" name="skills[]" value="HTML">
+    <label for="html">HTML</label><br>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" required>Enter your feedback</textarea><br>
+
+    <button type="submit">Submit</button>
+</form>
